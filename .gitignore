@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node / React
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# build outputs
+dist/
+build/
+frontend/dist/
+
+# model artifacts (usually too big for git)
+*.h5
+*.tflite
+
+# logs/uploads
+logs/
+uploads/
